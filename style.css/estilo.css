@@ -125,6 +125,18 @@ ul.lista-perfis {
     /* Animação suave para hover */
 }
 
+.profile a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.profile a:focus,
+.profile a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
 /* Estilos para o hover dos perfis */
 .profile:hover {
     transform: translateY(-3px);
